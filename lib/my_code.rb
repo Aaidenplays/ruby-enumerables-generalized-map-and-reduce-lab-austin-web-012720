@@ -1,3 +1,4 @@
+require 'pry'
 def map(source_array)
   result = []
   counter = 0 
@@ -6,5 +7,6 @@ def map(source_array)
     counter += 1
   end
   yield result
+  binding.pry
   result
 end
