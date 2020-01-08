@@ -1,6 +1,6 @@
 def map(source_array)
   result = []
-  count = 0 
+  counter = 0 
   while count < source_array.size 
     result << source_array[counter] * -1
     count += 1
