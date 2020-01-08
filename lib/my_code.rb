@@ -6,4 +6,5 @@ def map(source_array)
     count += 1
   end
   yield result
+  result
 end
